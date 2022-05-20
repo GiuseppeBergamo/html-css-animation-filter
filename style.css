@@ -65,12 +65,20 @@
 }
 
 .ex-6-img:hover{
-    filter: grayscale(100%);
+    filter: grayscale(1);
 }
 
 .ex-7-img{
+    transition: filter 1s linear;
+}
+
+.ex-7-img:hover{
+    filter: grayscale(1) contrast(3);
     
 }
+
+
+
 
 .ex-9-img {
     margin: 50px 100px;
