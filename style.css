@@ -25,7 +25,7 @@
     width: 100px;
     height: 100px;
     background: red;
-    transition: 1s;
+    transition: all 1s;
 }
 
 .ex-3-square:hover {
@@ -36,10 +36,11 @@
     width: 100px;
     height: 100px;
     background: red;
+    transition: all 1s;
 }
 
-.ex-4-square {
-    
+.ex-4-square:hover {
+    background-color: transparent;
 }
 
 .ex-5-square {
@@ -48,6 +49,9 @@
     height: 60px;
     background: red;
 }
+
+
+
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
 }
